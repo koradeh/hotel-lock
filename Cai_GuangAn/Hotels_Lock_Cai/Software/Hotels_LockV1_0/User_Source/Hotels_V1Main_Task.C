@@ -5,6 +5,13 @@
 void Systemp_Init(void)
 {
 	RS232_Init();
+	//按键处理
+	KBPATN = 0x72;	//01110010b
+	//设置按键 P1.6、P1.5、P1.4、P1.1中断源
+	KBMASK = 0x72;	//01110010b
+	KBCON  = 0x00;
+	
+
 }
 
 //SPI初始化
@@ -18,11 +25,20 @@ void SPI_Init(void)
 //RS232 TTL配置
 void RS232_Init(void)
 {
-	;
-}
-void delay (unsigned int cnt)
-{
-  while (--cnt);
+	P1M1=0x00;
+	P1M2=0x00; //端口初始化
+	SCON=0x50; //使能接收选择串口模式1
+	SSTAT=0xE0; //选择独立的Tx/Rx中断
+	BRGR0=0xF0; //9600 baud @ 7.373MHz
+	BRGR1=0x02;
+	// BRGR0=0x70; //19200 baud @ 7.373MHz
+	// BRGR1=0x01;
+	// BRGR0=0x30; //115200 baud @ 7.373MHz
+	// BRGR1=0x00;
+	BRGCON =0x03; //使能BRG
+	ESR=1; //ESR=Enable Serial Recieve
+	//EST=1; //EST=Enable Serial Transmit
+	EA=1; //使能中断
 }
 
 void main()
@@ -34,11 +50,11 @@ void main()
   for(;;)
   { for (i = 0x01; i; i <<= 1)
     { P1 = i;				// simulate running lights
-      delay (50000);
+      Delay_Nns (50000);
     }
     for (i = 0x80; i; i >>= 1)
     { P1 = i;
-      delay (50000);
+      Delay_Nns (50000);
     }
   }
 }
