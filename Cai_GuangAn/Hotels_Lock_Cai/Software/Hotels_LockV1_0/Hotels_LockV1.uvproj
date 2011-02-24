@@ -367,6 +367,21 @@
               <FileType>1</FileType>
               <FilePath>.\User_Source\Hotels_Group_Fun.c</FilePath>
             </File>
+            <File>
+              <FileName>HI2C_C51.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User_Source\HI2C_C51.c</FilePath>
+            </File>
+            <File>
+              <FileName>Interrupt.C</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User_Source\Interrupt.C</FilePath>
+            </File>
+            <File>
+              <FileName>Serial.c</FileName>
+              <FileType>1</FileType>
+              <FilePath>.\User_Source\Serial.c</FilePath>
+            </File>
           </Files>
         </Group>
         <Group>
@@ -381,6 +396,11 @@
               <FileName>Group_Pin.h</FileName>
               <FileType>5</FileType>
               <FilePath>.\User_Include\Group_Pin.h</FilePath>
+            </File>
+            <File>
+              <FileName>HI2C_C51.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User_Include\HI2C_C51.h</FilePath>
             </File>
           </Files>
         </Group>

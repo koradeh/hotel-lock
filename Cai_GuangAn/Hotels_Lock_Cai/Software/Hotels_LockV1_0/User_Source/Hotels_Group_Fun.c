@@ -1,7 +1,7 @@
 #include <REG931.h>			//自带的P89LPC931的头文件
 #include "Group_Fun.h"		//程序所用函数头文件
 #include "Group_Pin.h"		//硬件配置头文
-
+//延时ns级
 void Delay_Nns(unsigned int Nns)
 {
 	unsigned int i;
@@ -10,7 +10,7 @@ void Delay_Nns(unsigned int Nns)
 		;
 	}
 }
-
+//延时ms级
 void Delay_Nms(unsigned int Nms)
 {
 	unsigned int i;
