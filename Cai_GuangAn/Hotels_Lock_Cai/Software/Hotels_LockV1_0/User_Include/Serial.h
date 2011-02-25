@@ -9,7 +9,8 @@ unsigned char M_SioInOutBuffer[SIO_IN_OUT_LEN];   //串口通讯缓冲区
 unsigned char *M_SioInOutHeadPoint;				  //串口通讯头指针
 unsigned char *M_SioInOutTailPoint;				  //串口通讯尾指针
 
-void InitSioBuff(void);
+void RS232_Init(void);		//串口通记初始化
+void InitSioBuff(void);		//清空串口通讯缓冲区
 void Send_Char(BYTE ch);//发送一个字符
 void Send_String(BYTE *str ,BYTE len);  //发送一个字符串
 
