@@ -41,31 +41,13 @@ void RS232_Init(void)
 	EA=1; //使能中断
 }
 
-void main()
-{
-  unsigned char i;
 
-  P1M1 = 0;
-
-  for(;;)
-  { for (i = 0x01; i; i <<= 1)
-    { P1 = i;				// simulate running lights
-      Delay_Nns (50000);
-    }
-    for (i = 0x80; i; i >>= 1)
-    { P1 = i;
-      Delay_Nns (50000);
-    }
-  }
-}
-/*
 //系统主函数，程序入口
 void Main(void)
 {
 	Systemp_Init();
 	while(1)
 	{
-		;
+		Send_Char(0x55);
 	};
 }
-  */
