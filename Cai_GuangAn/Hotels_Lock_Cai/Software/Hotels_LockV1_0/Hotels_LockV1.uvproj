@@ -402,6 +402,16 @@
               <FileType>5</FileType>
               <FilePath>.\User_Include\HI2C_C51.h</FilePath>
             </File>
+            <File>
+              <FileName>FM1702.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User_Include\FM1702.h</FilePath>
+            </File>
+            <File>
+              <FileName>Serial.h</FileName>
+              <FileType>5</FileType>
+              <FilePath>.\User_Include\Serial.h</FilePath>
+            </File>
           </Files>
         </Group>
       </Groups>
