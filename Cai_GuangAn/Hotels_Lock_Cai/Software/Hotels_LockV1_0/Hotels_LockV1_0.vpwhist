@@ -4,3 +4,72 @@ CurrentProject=Hotels_LockV1_0.vpj
 Hotels_LockV1_0.vpj=20110225135702790
 [ActiveConfig]
 Hotels_LockV1_0.vpj=Debug
+[TreeExpansion2]
+- Hotels_LockV1_0.vpj
+  - Source Files
+  - Header Files
+  + Resource Files
+  + Bitmaps
+  + Other Files
+scroll:0
+[State]
+SCREEN: 1366 768 25 25 1025 526 0 0 M 0 0 0 0 1339 568 0
+CWD: ..\Hotels_LockV1_0
+BUFFER: BN="User_Source\LED_Beep.C"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=131176 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=5 BI=12 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Include\Serial.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=40 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.599 CL=1 LE=0 CX=1 CY=15 WI=5 BI=15 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Source\Serial.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=104 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.135 CL=1 LE=0 CX=1 CY=3 WI=5 BI=14 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Include\Group_Fun.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.92 CL=18 LE=0 CX=18 CY=5 WI=5 BI=17 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Include\Group_Pin.h"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=616 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.892 CL=17 LE=0 CX=17 CY=20 WI=5 BI=4 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Source\Hotels_Group_Fun.c"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=1 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=131688 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.691 CL=41 LE=0 CX=41 CY=7 WI=5 BI=11 HT=0 HN=0 HF=0 HC=4
+BUFFER: BN="User_Source\Hotels_V1Main_Task.C"
+BI: MA=1 74 1  TABS=1 5  WWS=1 IWT=0 ST=0 IN=2 BW=0 US=32000 RO=0 SE=1 SN=0 BIN=0 MN=C/C++	HM=0 MF=131176 TL=0 MLL=0 ASE=0 LNL=1 LCF=0 CAPS=0 E=0 ESBU2=-1 CL="" SC=""
+VIEW: LN=.227 CL=14 LE=0 CX=14 CY=2 WI=5 BI=10 HT=0 HN=0 HF=0 HC=4
+WINDOW: 20 25 1037 397 -1 -1 N  WF=0 WT=2 ",,,"
+BUFFER: BN="User_Source\LED_Beep.C"
+VIEW: LN=.0 CL=1 LE=0 CX=1 CY=0 WI=225 BI=12 HT=0 HN=0 HF=0 HC=4
+WINDOW: 60 75 1037 397 -1 -1 N  WF=0 WT=4 ",,,"
+BUFFER: BN="User_Include\Serial.h"
+VIEW: LN=.599 CL=1 LE=0 CX=1 CY=15 WI=237 BI=15 HT=0 HN=0 HF=0 HC=4
+WINDOW: 40 50 1037 397 -1 -1 N  WF=0 WT=3 ",,,"
+BUFFER: BN="User_Source\Serial.c"
+VIEW: LN=.135 CL=1 LE=0 CX=1 CY=3 WI=231 BI=14 HT=0 HN=0 HF=0 HC=4
+WINDOW: 120 150 1037 397 -1 -1 N  WF=0 WT=7 ",,,"
+BUFFER: BN="User_Include\Group_Fun.h"
+VIEW: LN=.92 CL=18 LE=0 CX=18 CY=5 WI=255 BI=17 HT=0 HN=0 HF=0 HC=4
+WINDOW: 80 100 1037 397 -1 -1 N  WF=0 WT=5 ",,,"
+BUFFER: BN="User_Include\Group_Pin.h"
+VIEW: LN=.892 CL=17 LE=0 CX=17 CY=20 WI=243 BI=4 HT=0 HN=0 HF=0 HC=4
+WINDOW: 100 125 1037 397 -1 -1 N  WF=0 WT=6 ",,,"
+BUFFER: BN="User_Source\Hotels_Group_Fun.c"
+VIEW: LN=.691 CL=41 LE=0 CX=41 CY=7 WI=249 BI=11 HT=0 HN=0 HF=0 HC=4
+WINDOW: 0 0 1037 397 -1 -1 M  WF=0 WT=1 ",,,"
+BUFFER: BN="User_Source\Hotels_V1Main_Task.C"
+VIEW: LN=.227 CL=14 LE=0 CX=14 CY=2 WI=216 BI=10 HT=0 HN=0 HF=0 HC=4
+FILEHIST: 9
+\Item_Work\OA1000_Iris\OA1000_Iris_LM3S_Software\OA1000_Iris_Main_V1_OS_Lib\User_Include\Public_Group.h
+\Item_Work\OA1000_Iris\OA1000_Iris_LM3S_Software\OA1000_Iris_Main_V1_OS_Lib\User_Source\OA1000_Iris_MainV1.C
+User_Source\LED_Beep.C
+User_Include\Serial.h
+User_Source\Serial.c
+User_Include\Group_Pin.h
+User_Include\Group_Fun.h
+User_Source\Hotels_Group_Fun.c
+User_Source\Hotels_V1Main_Task.C
+DEBUG: 0 0 0 0 3 0 gdb
+printf
+strcpy
+std::*
+PROJECT_CACHE: 0
+TBCLASS: 0 0

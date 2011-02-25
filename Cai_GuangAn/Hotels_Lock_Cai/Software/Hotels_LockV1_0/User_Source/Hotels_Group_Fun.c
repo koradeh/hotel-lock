@@ -24,3 +24,49 @@ void Delay_Nms(unsigned int Nms)
 	}
 }
 
+//
+void Beep_Ctrl(unsigned int Open_delay,unsigned int Close_delay,unsigned char Views)
+{
+	while(Views)
+	{
+		CTRL_BEEP=0;
+		Delay_Nms(Open_delay);
+		CTRL_BEEP=1;
+		Delay_Nms(Close_delay);
+		Views--;
+	}
+}
+
+void LED_Ctrl(unsigned char YGR,unsigned int delay,unsigned char Views)
+{
+	if(YGR == Cheak_Fail)		// ß∞‹µ∆
+	{
+		while(Views)
+		{
+			PASS_FAIL = 0;
+			Delay_Nms(delay);
+			PASS_FAIL = 1;
+			Delay_Nms(delay);
+		}
+	}
+	if(YGR == Check_OK)		//Õ®π˝µ∆
+	{
+		while(Views)
+		{
+			PASS_OK = 0;
+			Delay_Nms(delay);
+			PASS_OK = 1;
+			Delay_Nms(delay);
+		}
+	}
+	if(YGR == Check_Set)	//…Ë÷√µ∆
+	{
+		while(Views)
+		{
+			PASS_SET = 0;
+			Delay_Nms(delay);
+			PASS_SET = 1;
+			Delay_Nms(delay);
+		}
+	}
+}
